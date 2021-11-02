@@ -1,0 +1,47 @@
+@import "variables/color";
+@import "components/sidenav";
+@import "components/navbar";
+@import "components/button";
+@import "components/table";
+
+html {
+    body {
+        padding: 0%;
+        max-width: 100vw;
+        overflow-x: hidden;
+        max-height: 100vh;
+        background-color: $lavender_web;
+
+        .ui-datepicker-calendar {
+            display: none;
+        }
+
+        #content-col {
+            padding: 2% 3% 2% 2%;
+
+            .breadcrumb {
+                background-color: transparent;
+            }
+
+            #mahasiswa-card,
+            #transaksi-card,
+            #tunggakan-card {
+                border: none;
+                background-color: $cadet_blue;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .card-body-icon {
+                position: absolute;
+                z-index: 0;
+                top: -0.5rem;
+                right: 1rem;
+                opacity: 0.2;
+                font-size: 5rem;
+                -webkit-transform: rotate(15deg);
+                transform: rotate(15deg);
+                color: $lavender_web;
+            }
+        }
+    }
+}

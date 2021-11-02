@@ -1,0 +1,21 @@
+$space_cadet: #2B3A67 !default;
+$dark_electric_blue: #496A81 !default;
+$cadet_blue: #66999B !default;
+$sage: #B3AF8F !default;
+$mellow_apricot: #ffc482 !default;
+$dark_orange: #FF8D0A !default;
+$forest_green_web: #268c2a !default;
+$madder_lake: #C43B3B !default;
+$lavender_web: #E5E5FF !default;
+$xiketic: #03030E !default;
+
+$theme-colors: (
+    "primary": $space_cadet,
+    "secondary": $dark_electric_blue,
+    "tertiary": $cadet_blue,
+    "warning": $dark_orange,
+    "success": $forest_green_web,
+    "danger": $madder_lake,
+    "light": $lavender_web,
+    "dark": $xiketic
+) !default;

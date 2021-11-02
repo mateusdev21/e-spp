@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nama": "Mateus",
+    "npm": "20190101",
+    "prodi": "Teknik Informatika",
+    "semester": "5",
+    "kelas": "A5",
+    "alamat": "Jl. Jambrut No.66, RT.10/RW.10, Kp. Melayu, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330"
+  },
+  {
+    "id": 2,
+    "nama": "Argastra",
+    "npm": "20190102",
+    "prodi": "Teknik Informatika",
+    "semester": "5",
+    "kelas": "C5",
+    "alamat": "Jl. Jambrut No.66, RT.10/RW.10, Kp. Melayu, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330"
+  }
+]

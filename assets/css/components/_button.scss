@@ -1,0 +1,27 @@
+@each $color,
+$value in $theme-colors {
+    .btn-#{$color} {
+        background-color: $value;
+        border: 1px solid $value !important;
+        color: white;
+        border: none;
+    }
+
+    .btn-#{$color}:hover {
+        border: 1px solid $value;
+        color: $value;
+        background-color: transparent;
+    }
+
+    .btn-outline-#{$color} {
+        background-color: transparent;
+        color: $value;
+        border: 1px solid $value;
+    }
+
+    .btn-outline-#{$color}:hover {
+        border: none;
+        color: white;
+        background-color: $value;
+    }
+}

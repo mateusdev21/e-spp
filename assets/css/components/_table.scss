@@ -1,0 +1,21 @@
+table {
+    thead {
+        th {
+            text-align: center;
+            border: 1px solid $cadet_blue !important;
+        }
+    }
+
+    tbody {
+
+        th,
+        td {
+            border: 1px solid $cadet_blue !important;
+            vertical-align: middle !important;
+        }
+
+        .td-center-mid {
+            text-align: center !important;
+        }
+    }
+}
